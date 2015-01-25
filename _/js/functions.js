@@ -25,7 +25,7 @@
 ;(function() {
   'use strict';
   /**
-   * [retrieveFrom Returns a Promise based GET request to retrieve the modal with the overlay from a local file]
+   * [returnPromisedBasedResponseFrom Returns a Promise based GET request to retrieve the modal with the overlay from a local file]
    * @param  {[String]} url
    * @return {[Promise]}
    */
