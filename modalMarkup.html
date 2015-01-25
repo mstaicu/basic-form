@@ -1,0 +1,103 @@
+<div id='modal-container' class='visible animate'>
+  <!-- This is the full page overlay without requiring any stacking context due to the nature of the markup structure -->
+  <div class='overlay'>&nbsp;</div>
+
+  <article id='modal-content'>
+    <header class='modal-title-container clearfix moveDown'>
+      <h3>Add Product</h3>
+      <a id='close-button' data-event-on='click'>x</a>
+    </header>
+
+    <form id='car-sell-form' novalidate class='clearfix'>
+      <div id='modal-content-header-section' class='clearfix'>
+        <div class='title'>
+          <h1>Second-hand Car</h1>
+          <p>Category: Automobiles</p>
+        </div>
+
+        <div class='brand-container-preview'>
+      	  <img src='' alt=''>
+        </div>
+  	  </div>
+
+  	  <div class="section-container clearfix">
+  	  	<div id='first-section' class=''>
+          <div id='titleContainer' class='clearfix '>
+            <label for='title'>Title of announcement:</label>
+            <div class='float-right'>
+              <input type='text' name='title' id='title' required placeholder='What are we selling?'>
+              <span></span>
+            </div>
+          </div>
+          <div id='makeBrandContainer' class='clearfix '>
+            <label for='makeBrand'>Make / Brand:</label>
+            <select name='makeBrand' id='makeBrand' data-event-on='change'>
+              <option value='-'>-</option>
+              <option value='ford'>Ford</option>
+              <option value='kia'>Kia</option>
+              <option value='volkswagen'>Volkswagen</option>
+              <option value='land-rover'>Land-rover</option>
+            </select>
+          </div>
+          <div id='manufacturingContainer' class='clearfix '>
+            <label for='manufacturing'>Manufacturing Year:</label>
+            <div class='float-right'>
+              <input type='text' name='manufacturing' id='manufacturing' required placeholder='What is thy year, Sir?'>
+              <span></span>
+            </div>
+          </div>
+          <div id='mileageContainer' class='clearfix '>
+            <label for='mileage'>Mileage:</label>
+            <div class='float-right'>
+              <input type='text' name='mileage' id='mileage' required placeholder='The life span' pattern='.{1,}'>
+              <span></span>
+            </div>
+          </div>
+          <div id='fuelContainer' class='clearfix '>
+            <label for='fuelType'>Fuel type:</label>
+            <div class='float-right'>
+              <input type='text' name='fuelType' id='fuelType' required placeholder='Thy favorite drink' pattern='.{1,}'>
+              <span></span>
+            </div>
+          </div>
+        </div>
+
+        <div id='second-section' class='clearfix'>
+          <div id='vehicle-damage-container' class='clearfix '>
+            <label for='vehicleDamage'>Vehicle damaged:</label>
+            <select name='vehicleDamage' id='vehicleDamage' data-event-on='change'>
+              <option value='-'>-</option>
+              <option value='yes'>Yes</option>
+              <option value='no'>No</option>
+            </select>
+          </div>
+          <div id='price-container' class='clearfix '>
+            <label for='price'>Price:</label>
+            <div class='float-right clearfix'>
+              <input type='text' name='price' id='price' placeholder='Name your price' required>
+              <span></span>
+            </div>
+          </div>
+          <div id='color-container' class='clearfix '>
+            <label for='color'>Color:</label>
+            <div class='float-right'>
+              <input type='text' name='color' id='color' placeholder='Enter a color, e.g. red' required>
+              <span></span>
+            </div>
+          </div>
+          <div id='description-container' class='clearfix '>
+            <label for='description'>Description:</label>
+            <div class='float-right clearfix'>
+              <input type='text' name='description' id='description' placeholder='A short description' required>
+              <span></span>
+            </div>
+          </div>
+          <div id='buttons-container' class='moveUp'>
+            <button type='submit' id='submit-button' class='woo'>Sell it</button>
+            <button type='button' id='cancel-button' class='woo' data-event-on='click'>Cancel</button>
+          </div>
+        </div>
+  	  </div>
+    </form>
+  </article>
+</div>
