@@ -131,7 +131,7 @@
 
   /**
    * [validateInputOnEvent Function used for the validation and stylisation of the inputs]
-   * @param  {[HTMLElement object]} element
+   * @param  {[Element object]} element
    * @return {[void]}
    */
   function validateInputOnEvent(input){
@@ -149,7 +149,7 @@
 
   /**
    * [cleanupInputValidation Function used to clean the input validation]
-   * @param  {[HTMLElement object]} input
+   * @param  {[Element object]} input
    * @return {[void]}
    */
   function cleanupInputValidation(input){
@@ -182,7 +182,7 @@
 
   /**
    * [toggleVisibility Function used to hide / display the form and its overlay background]
-   * @param  {[HTMLElement object]} element
+   * @param  {[Element object]} element
    * @return {[void]}
    */
   function toggleVisibility(element){
@@ -304,7 +304,7 @@
 
   /**
    * [animateElementWithReflow A function which animates an element]
-   * @param  {[HTMLElement]} element [Element to animate]
+   * @param  {[Element]} element [Element to animate]
    * @param  {[String]} class   [Animation CSS class]
    * @return {[void]}
    */
@@ -383,7 +383,7 @@
 
   /**
    * [validateInput Callback for INPUT type elements validation]
-   * @param  {[HTMLElement]} input
+   * @param  {[Element]} input
    * @return {[Boolean]} [input is valid or not]
    */
   function validateInput(input){
