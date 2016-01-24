@@ -5,3 +5,7 @@ To run this example you should serve the files from a HTTP server. You can use t
 ```bash
 python -m SimpleHTTPServer
 ```
+
+#Preview
+
+![Basic form preview](https://raw.githubusercontent.com/mstaicu/basic-form/master/preview-basic-form.gif)
